@@ -1,0 +1,35 @@
+[project]
+name = "udacity-dsnd-pipelines-project"
+description = "Software Engineering for Data Scientists: Data Science Pipelines"
+version = "0.1.0"
+authors = [
+  {name = "Robert ABEL", email = "robert.abel@cariad.technology"},
+]
+maintainers = [
+  {name = "Robert ABEL", email = "robert.abel@cariad.technology"},
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+license-files = [
+  "LICENSE",
+  "LICENSE-Udacity",
+]
+dependencies = [
+  "scikit-learn~=1.9",
+  "pandas~=3.0",
+  "spacy~=3.8",
+  "notebook~=7.6",
+]
+requires-python = ">=3.13"
+classifiers = [
+  "License :: Other/Proprietary License",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.13",
+]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = false

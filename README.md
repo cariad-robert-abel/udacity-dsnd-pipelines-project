@@ -1,55 +1,19 @@
-# README Template
+# Software Engineering for Data Scientists: Data Science Pipelines
 
-Below is a template provided for use when building your README file for students.
+This repository contains the project associated with "Data Science Pipelines" Udacity course.
+It's a fork of Udacity's [Starter Kit](https://github.com/udacity/dsnd-pipelines-project).
 
-# Project Title
+This GitHub.com project is located at [cariad-robert-abel/udacity-dsnd-pipelines-project](https://github.com/cariad-robert-abel/udacity-dsnd-pipelines-project).
 
-Project description goes here.
+## Installation
 
-## Getting Started
+From the top-level repository directory, install using `pip` and then load the required pre-trained NLP pipeline for spaCy:
 
-Instructions for how to get a copy of the project running on your local machine.
-
-### Dependencies
-
-```
-Examples here
-```
-
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
+    pip install .
+    python -m spacy download en_core_web_sm
 
 ## License
 
-[License](LICENSE.txt)
+Original files Copyright 2012–2020 Udacity, Inc.
+My additions to documentation and code are [MIT](https://spdx.org/licenses/MIT).
+See [LICENSE-Udacity](LICENSE-Udacity) resp. [LICENSE](LICENSE).
